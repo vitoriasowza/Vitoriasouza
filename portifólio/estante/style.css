@@ -1,0 +1,117 @@
+body{
+
+    /* background */
+    background-color: black;
+
+    /* texto */
+    text-align:justify; 
+    font-family:Arial Narrow Bold;
+
+    /* alinhamento e tamanho */
+    width: 85%;
+    margin:auto;
+}
+p{
+    text-align: justify;
+    text-indent: 30px;
+}
+h1{
+    text-align: center;
+}
+h3{
+    color: aquamarine;
+}
+h4{
+    text-align: center;
+}
+a{
+    color: black;
+}
+a:link{
+    color:black;
+}
+a:visited{
+    color:darkslategrey;
+}
+a:hover{
+    color:teal
+}
+a:active{
+    color:cyan;
+}
+section{
+
+    /* background*/
+    background-color:rgb(26, 25, 25);
+
+    /* texto */
+    color:aliceblue;
+    text-align: center;
+
+    /* alinhamento e tamanho*/
+    padding-left:256px ;
+    padding-right:256px ;
+    padding-bottom:64px ;
+    padding-top:64px ;
+
+    border-bottom-left-radius:300px ;
+    border-top-left-radius: 300px;
+    border-bottom-right-radius:300px ;
+    border-top-right-radius: 300px;
+}
+table {
+            width: 100%;  
+}
+td{
+            background-color:aquamarine ;
+            color:rgb(26, 25, 25);
+}
+th{
+            background-color: aqua;
+            color:black;
+}
+td, th{
+
+    /* borda */
+    border-width: 3px;
+    border-style:double;
+    border-color:black;
+    border-radius: 10px;
+
+    padding: 8px;
+    text-align: center;
+}
+.tituloL{
+            color:aqua
+ }
+div{
+            background-color:aquamarine;
+            color:rgb(26, 25, 25);
+}
+img{
+            width: 25%;
+            display: block;
+            margin: auto;
+            border-radius:20px;
+            border-style:double;
+            border-color: aliceblue;
+}
+ol{
+            list-style-position:inside; 
+            text-align: 70px;
+          
+}
+span{
+            color:aqua;
+}
+#duff, #addie{
+    background-color: black;
+
+}
+#topo{
+    padding:20px;
+    margin-bottom: 50px;
+    border-bottom-left-radius: 1000px;
+    border-bottom-right-radius: 1000px;
+    text-align: center;
+}
